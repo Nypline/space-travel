@@ -41,7 +41,7 @@ export default function HeroCrew() {
     <div className="flex flex-row w-full">
       <div className="mx-40 lg:mx-40 sm:mx-20 min-[320px]:mx-0 flex flex-col  mt-48 lg:mt-48 min-[320px]:mt-44 w-full h-[700px] min-[320px]:h-auto">
         <h1 className="text-white text-2xl sm:text-2xl min-[320px]:text-xl text-start sm:text-start min-[320px]:text-center">
-          <span className="text-gray-500 mr-5">01</span> PICK YOUR DESTINATION
+          <span className="text-gray-500 mr-5">02</span> MEET YOUR CREW
         </h1>
 
         <div className="flex justify-between items-center flex-row lg:flex-row min-[320px]:flex-col mt-14">
