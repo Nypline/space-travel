@@ -46,10 +46,10 @@ export default function Hero() {
             className="w-72 min-[320px]:w-52 md:w-64 lg:w-64 xl:w-72 h-auto"
           /> */}
           <div
-            className={`group relative flex items-center justify-center w-80 sm:w-80 min-[320px]:w-40 aspect-square rounded-full bg-white text-gray-700 text-3xl transition-all duration-300 ${bellefair.className}`}
+            className={`group relative flex items-center justify-center w-80 sm:w-80 min-[320px]:w-48 aspect-square rounded-full bg-white text-gray-700 text-3xl transition-all duration-300 ${bellefair.className}`}
           >
             EXPLORE
-            <div className="absolute top-1/2 left-1/2 w-[150%] sm:w-[150%] sm:h-[150%] min-[320px]:w-[110%] min-[320px]:h-[110%]   h-[150%] rounded-full bg-white opacity-0 group-hover:opacity-30 transform -translate-x-1/2 -translate-y-1/2 transition duration-300 " />
+            <div className="absolute top-1/2 left-1/2 w-[150%] sm:w-[150%] sm:h-[150%] min-[320px]:w-[130%] min-[320px]:h-[130%]   h-[150%] rounded-full bg-white opacity-0 group-hover:opacity-30 transform -translate-x-1/2 -translate-y-1/2 transition duration-300 " />
           </div>
         </Link>
       </div>
