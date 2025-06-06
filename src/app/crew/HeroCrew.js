@@ -39,7 +39,7 @@ export default function HeroCrew() {
 
   return (
     <div className="flex flex-row w-full">
-      <div className="mx-40 flex flex-col lg:mx-40 min-[320px]:mx-20 mt-48 lg:mt-48 min-[320px]:mt-44 w-full h-[700px] min-[320px]:h-auto">
+      <div className="mx-40 lg:mx-40 sm:mx-20 min-[320px]:mx-0 flex flex-col  mt-48 lg:mt-48 min-[320px]:mt-44 w-full h-[700px] min-[320px]:h-auto">
         <h1 className="text-white text-2xl sm:text-2xl min-[320px]:text-xl text-start sm:text-start min-[320px]:text-center">
           <span className="text-gray-500 mr-5">01</span> PICK YOUR DESTINATION
         </h1>
@@ -52,7 +52,7 @@ export default function HeroCrew() {
               {destination?.heading}
             </h6>
             <h1
-              className={`text-8xl sm:text-8xl min-[320px]:text-7xl ${bellefair.className}`}
+              className={`text-8xl lg:text-8xl sm:text-7xl min-[320px]:text-6xl ${bellefair.className}`}
             >
               {destination?.title}
             </h1>
@@ -84,7 +84,7 @@ export default function HeroCrew() {
             alt={destination?.title || ""}
             width={200}
             height={200}
-            className="w-96 min-[320px]:w-72 md:w-80 lg:w-96 xl:w-96"
+            className="w-96 sm:w-72 min-[320px]:w-56 md:w-80 lg:w-96 xl:w-96"
           />
         </div>
       </div>

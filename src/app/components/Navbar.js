@@ -17,7 +17,7 @@ export default function Navbar() {
   const handleImageClick = () => {
     setIsOpen((prev) => !prev);
     setMenuImg((prevsrc) =>
-      prevsrc === "/menu.svg" ? "/close.svg" : "/menu.svg"
+      prevsrc === "/menu.svg" ? "/Close.svg" : "/menu.svg"
     );
   };
 
@@ -103,7 +103,7 @@ export default function Navbar() {
               onClick={handleImageClick}
             />
           </div>
-          <div className="flex flex-col items-start justify-center mt-20 gap-10 pl-10">
+          <div className="flex flex-col items-start sm:items-start min-[320px]:items-end justify-center mt-20 gap-10 pl-10">
             <Link href="/" className={`block text-2xl ${barlow.className}`}>
               <span className="font-bold">00</span> Home
             </Link>

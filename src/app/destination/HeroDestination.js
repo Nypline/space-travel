@@ -62,7 +62,7 @@ export default function HeroDestination() {
 
   return (
     <div className="flex flex-row w-full">
-      <div className="mx-40 flex flex-col lg:mx-40 min-[320px]:mx-20 mt-48 lg:mt-48 min-[320px]:mt-44 w-full h-[700px] min-[320px]:h-auto">
+      <div className=" mx-40 lg:mx-40 sm:mx-20 min-[320px]:mx-0 flex flex-col  mt-48 lg:mt-48 min-[320px]:mt-44 w-full h-[700px] min-[320px]:h-auto">
         <h1 className="text-white text-2xl sm:text-2xl  min-[320px]:text-xl mb-10 text-start sm:text-start min-[320px]:text-center">
           <span className="text-gray-500 mr-5">01</span> PICK YOUR DESTINATION
         </h1>
@@ -109,7 +109,7 @@ export default function HeroDestination() {
               SO, YOU WANT TO TRAVEL TO
             </h6>
             <h1
-              className={`text-9xl sm:text-9xl min-[320px]:text-8xl ${bellefair.className}`}
+              className={`text-9xl lg:text-9xl sm:text-8xl min-[320px]:text-6xl ${bellefair.className}`}
             >
               {destination.title}
             </h1>
